@@ -1,0 +1,1591 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local InsertedObjects = Instance.new("ScreenGui")
+local KeyWall = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Check = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Border = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local Roundify = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local Gradient = Instance.new("Frame")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
+local Gradient_2 = Instance.new("Frame")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local Gradient_3 = Instance.new("Frame")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local namenil = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local welcome = Instance.new("TextLabel")
+local ver = Instance.new("TextLabel")
+local text = Instance.new("TextLabel")
+local Button = Instance.new("TextButton")
+local Shadow_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local scripthub = Instance.new("Frame")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local border = Instance.new("Frame")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local Title_3 = Instance.new("TextLabel")
+local Gradient_4 = Instance.new("Frame")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local Gradient2 = Instance.new("Frame")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local SearchBar = Instance.new("TextBox")
+local Roundify_2 = Instance.new("ImageLabel")
+local ver_2 = Instance.new("TextLabel")
+local Items = Instance.new("ScrollingFrame")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local cyrusV2lua = Instance.new("TextButton")
+local Shadow_3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local drpoppaV3lua = Instance.new("TextButton")
+local Shadow_4 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local ciazwarelua = Instance.new("TextButton")
+local Shadow_5 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local citizenlua = Instance.new("TextButton")
+local Shadow_6 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local infiniteyieldlua = Instance.new("TextButton")
+local Shadow_7 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local criminalityespetclua = Instance.new("TextButton")
+local Shadow_8 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local tsantiguncooldownlua = Instance.new("TextButton")
+local Shadow_9 = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local shindolifeautofarmlua = Instance.new("TextButton")
+local Shadow_10 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local boomboxhublua = Instance.new("TextButton")
+local Shadow_11 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local vghub60gameslua = Instance.new("TextButton")
+local Shadow_12 = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local dexhubarsenallua = Instance.new("TextButton")
+local Shadow_13 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local dahoodhub250commandslua = Instance.new("TextButton")
+local Shadow_14 = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local speedrun4autofarmlua = Instance.new("TextButton")
+local Shadow_15 = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local Button_2 = Instance.new("TextButton")
+local Shadow_16 = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+
+--Properties:
+
+InsertedObjects.Name = "InsertedObjects"
+InsertedObjects.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+KeyWall.Name = "KeyWall"
+KeyWall.Parent = InsertedObjects
+KeyWall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeyWall.BorderColor3 = Color3.fromRGB(27, 42, 53)
+KeyWall.BorderSizePixel = 0
+KeyWall.Position = UDim2.new(0, 723, 0, 300)
+KeyWall.Size = UDim2.new(0, 456, 0, 215)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient.Parent = KeyWall
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = KeyWall
+
+Title.Name = "Title"
+Title.Parent = KeyWall
+Title.AnchorPoint = Vector2.new(0.5, 0.5)
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 229, 0, 20)
+Title.Size = UDim2.new(0, 452, 0, 41)
+Title.ZIndex = 2
+Title.Font = Enum.Font.GothamSemibold
+Title.Text = "Key System"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Check.Name = "Check"
+Check.Parent = KeyWall
+Check.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Check.BorderSizePixel = 0
+Check.Position = UDim2.new(0, 5, 0, 152)
+Check.Size = UDim2.new(0, 445, 0, 45)
+Check.ZIndex = 2
+Check.Font = Enum.Font.GothamSemibold
+Check.Text = ""
+Check.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check.TextScaled = true
+Check.TextSize = 14.000
+Check.TextWrapped = true
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Check
+Shadow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel.Parent = Check
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(1, -20, 1, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Check"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Border.Name = "Border"
+Border.Parent = KeyWall
+Border.BackgroundColor3 = Color3.fromRGB(239, 239, 239)
+Border.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Border.BorderSizePixel = 0
+Border.Size = UDim2.new(0, 455, 0, 41)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_2.Parent = Border
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = Border
+
+TextBox.Parent = KeyWall
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderColor3 = Color3.fromRGB(53, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0, 5, 0, 73)
+TextBox.Size = UDim2.new(0, 445, 0, 50)
+TextBox.ZIndex = 2000
+TextBox.Font = Enum.Font.GothamSemibold
+TextBox.PlaceholderText = "[ Insert a valid key here ]"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+Roundify.Name = "Roundify"
+Roundify.Parent = TextBox
+Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify.BackgroundTransparency = 1.000
+Roundify.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify.Size = UDim2.new(0.982022464, 8, 1, 8)
+Roundify.ZIndex = 20
+Roundify.Image = "rbxassetid://3570695787"
+Roundify.ScaleType = Enum.ScaleType.Slice
+Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify.SliceScale = 0.040
+
+Frame.Parent = InsertedObjects
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.166999996, 0, 0.0140000004, 0)
+Frame.Size = UDim2.new(0, 229, 0, 792)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_3.Parent = Frame
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Frame
+
+Gradient.Name = "Gradient"
+Gradient.Parent = Frame
+Gradient.BackgroundColor3 = Color3.fromRGB(239, 239, 239)
+Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient.BorderSizePixel = 0
+Gradient.Size = UDim2.new(0, 229, 0, 41)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_4.Parent = Gradient
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = Gradient
+
+Title_2.Name = "Title"
+Title_2.Parent = Gradient
+Title_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_2.BorderSizePixel = 0
+Title_2.Position = UDim2.new(0, 115, 0, 20)
+Title_2.Size = UDim2.new(0, 226, 0, 40)
+Title_2.ZIndex = 2
+Title_2.Font = Enum.Font.GothamSemibold
+Title_2.Text = "Zetoken"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 35.000
+Title_2.TextWrapped = true
+
+Gradient_2.Name = "Gradient"
+Gradient_2.Parent = Gradient
+Gradient_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gradient_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient_2.BorderSizePixel = 0
+Gradient_2.Position = UDim2.new(0, 51, 0, 153)
+Gradient_2.Size = UDim2.new(0, 116, 0, 115)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_5.Parent = Gradient_2
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = Gradient_2
+
+Gradient_3.Name = "Gradient"
+Gradient_3.Parent = Gradient
+Gradient_3.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
+Gradient_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient_3.BorderSizePixel = 0
+Gradient_3.Position = UDim2.new(0, 8, 0, 746)
+Gradient_3.Size = UDim2.new(0, 210, 0, 40)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_6.Parent = Gradient_3
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = Gradient_3
+
+namenil.Name = "namenil"
+namenil.Parent = Frame
+namenil.AnchorPoint = Vector2.new(0.5, 0.5)
+namenil.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+namenil.BackgroundTransparency = 1.000
+namenil.BorderColor3 = Color3.fromRGB(27, 42, 53)
+namenil.BorderSizePixel = 0
+namenil.Position = UDim2.new(0, 148, 0, 123)
+namenil.Size = UDim2.new(0, 226, 0, 40)
+namenil.ZIndex = 2
+namenil.Font = Enum.Font.GothamSemibold
+namenil.Text = "NilName"
+namenil.TextColor3 = Color3.fromRGB(255, 255, 255)
+namenil.TextSize = 35.000
+namenil.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 0.800
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 60, 0, 164)
+ImageLabel.Size = UDim2.new(0, 97, 0, 93)
+ImageLabel.ZIndex = 10
+ImageLabel.Image = "http://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&userId=502623894"
+
+welcome.Name = "welcome"
+welcome.Parent = Frame
+welcome.AnchorPoint = Vector2.new(0.5, 0.5)
+welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+welcome.BackgroundTransparency = 1.000
+welcome.BorderColor3 = Color3.fromRGB(27, 42, 53)
+welcome.BorderSizePixel = 0
+welcome.Position = UDim2.new(0, 88, 0, 83)
+welcome.Size = UDim2.new(0, 226, 0, 40)
+welcome.ZIndex = 2
+welcome.Font = Enum.Font.GothamSemibold
+welcome.Text = "Welcome,"
+welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+welcome.TextSize = 35.000
+welcome.TextWrapped = true
+
+ver.Name = "ver."
+ver.Parent = Frame
+ver.AnchorPoint = Vector2.new(0.5, 0.5)
+ver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ver.BackgroundTransparency = 1.000
+ver.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ver.BorderSizePixel = 0
+ver.Position = UDim2.new(0, 167, 0, 766)
+ver.Size = UDim2.new(0, 265, 0, 40)
+ver.ZIndex = 2
+ver.Font = Enum.Font.GothamSemibold
+ver.Text = "v0.0.1"
+ver.TextColor3 = Color3.fromRGB(255, 255, 255)
+ver.TextSize = 35.000
+ver.TextWrapped = true
+
+text.Name = "text"
+text.Parent = Frame
+text.AnchorPoint = Vector2.new(0.5, 0.5)
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1.000
+text.BorderColor3 = Color3.fromRGB(27, 42, 53)
+text.BorderSizePixel = 0
+text.Position = UDim2.new(0, 113, 0, 467)
+text.Size = UDim2.new(0, 226, 0, 298)
+text.ZIndex = 2
+text.Font = Enum.Font.GothamSemibold
+text.Text = "Welcome, would you like to continue to the actual Gui?"
+text.TextColor3 = Color3.fromRGB(255, 255, 255)
+text.TextSize = 25.000
+text.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = Frame
+Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0982532799, 0, 0.679292917, 0)
+Button.Size = UDim2.new(0, 180, 0, 45)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamSemibold
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = Button
+Shadow_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_2.Parent = Button
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Yes!"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+scripthub.Name = "scripthub"
+scripthub.Parent = InsertedObjects
+scripthub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripthub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+scripthub.BorderSizePixel = 0
+scripthub.Position = UDim2.new(-0.166999996, 0, 0.0140000004, 0)
+scripthub.Size = UDim2.new(0, 229, 0, 792)
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_7.Parent = scripthub
+
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = scripthub
+
+border.Name = "border"
+border.Parent = scripthub
+border.BackgroundColor3 = Color3.fromRGB(239, 239, 239)
+border.BorderColor3 = Color3.fromRGB(27, 42, 53)
+border.BorderSizePixel = 0
+border.Size = UDim2.new(0, 229, 0, 41)
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_8.Parent = border
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = border
+
+Title_3.Name = "Title"
+Title_3.Parent = border
+Title_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_3.BorderSizePixel = 0
+Title_3.Position = UDim2.new(0, 115, 0, 20)
+Title_3.Size = UDim2.new(0, 226, 0, 40)
+Title_3.ZIndex = 2
+Title_3.Font = Enum.Font.GothamSemibold
+Title_3.Text = "Zetoken"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 35.000
+Title_3.TextWrapped = true
+
+Gradient_4.Name = "Gradient"
+Gradient_4.Parent = border
+Gradient_4.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
+Gradient_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient_4.BorderSizePixel = 0
+Gradient_4.Position = UDim2.new(0, 8, 0, 746)
+Gradient_4.Size = UDim2.new(0, 210, 0, 40)
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_9.Parent = Gradient_4
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = Gradient_4
+
+Gradient2.Name = "Gradient2"
+Gradient2.Parent = border
+Gradient2.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
+Gradient2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient2.BorderSizePixel = 0
+Gradient2.Position = UDim2.new(0, 78, 0, 63)
+Gradient2.Size = UDim2.new(0, 142, 0, 40)
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_10.Parent = Gradient2
+
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = Gradient2
+
+SearchBar.Name = "SearchBar"
+SearchBar.Parent = Gradient2
+SearchBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SearchBar.BorderColor3 = Color3.fromRGB(53, 0, 0)
+SearchBar.BorderSizePixel = 0
+SearchBar.Position = UDim2.new(0, 8, 0, 11)
+SearchBar.Size = UDim2.new(0, 126, 0, 18)
+SearchBar.ZIndex = 2000
+SearchBar.Font = Enum.Font.GothamSemibold
+SearchBar.PlaceholderText = "Search"
+SearchBar.Text = ""
+SearchBar.TextColor3 = Color3.fromRGB(0, 0, 0)
+SearchBar.TextScaled = true
+SearchBar.TextSize = 14.000
+SearchBar.TextWrapped = true
+
+Roundify_2.Name = "Roundify"
+Roundify_2.Parent = SearchBar
+Roundify_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_2.BackgroundTransparency = 1.000
+Roundify_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_2.Size = UDim2.new(0.982022464, 8, 1, 8)
+Roundify_2.ZIndex = 20
+Roundify_2.Image = "rbxassetid://3570695787"
+Roundify_2.ScaleType = Enum.ScaleType.Slice
+Roundify_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_2.SliceScale = 0.040
+
+ver_2.Name = "ver."
+ver_2.Parent = scripthub
+ver_2.AnchorPoint = Vector2.new(0.5, 0.5)
+ver_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ver_2.BackgroundTransparency = 1.000
+ver_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ver_2.BorderSizePixel = 0
+ver_2.Position = UDim2.new(0, 167, 0, 766)
+ver_2.Size = UDim2.new(0, 265, 0, 40)
+ver_2.ZIndex = 2
+ver_2.Font = Enum.Font.GothamSemibold
+ver_2.Text = "v0.0.1"
+ver_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ver_2.TextSize = 35.000
+ver_2.TextWrapped = true
+
+Items.Name = "Items"
+Items.Parent = scripthub
+Items.Active = true
+Items.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Items.BackgroundTransparency = 0.700
+Items.BorderSizePixel = 0
+Items.Position = UDim2.new(0.0436681211, 0, 0.148989901, 0)
+Items.Size = UDim2.new(0, 204, 0, 615)
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(116, 137, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(237, 102, 109))}
+UIGradient_11.Parent = Items
+
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = Items
+
+cyrusV2lua.Name = "cyrusV2.lua"
+cyrusV2lua.Parent = Items
+cyrusV2lua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+cyrusV2lua.BorderSizePixel = 0
+cyrusV2lua.Position = UDim2.new(0.0587058812, 0, 0.00821717083, 0)
+cyrusV2lua.Size = UDim2.new(0, 180, 0, 45)
+cyrusV2lua.ZIndex = 2
+cyrusV2lua.Font = Enum.Font.GothamSemibold
+cyrusV2lua.Text = "cyrusV2.lua"
+cyrusV2lua.TextColor3 = Color3.fromRGB(255, 255, 255)
+cyrusV2lua.TextScaled = true
+cyrusV2lua.TextSize = 14.000
+cyrusV2lua.TextTransparency = 1.000
+cyrusV2lua.TextWrapped = true
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = cyrusV2lua
+Shadow_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_3.Parent = cyrusV2lua
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "cyrusV2.lua"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+drpoppaV3lua.Name = "drpoppaV3.lua"
+drpoppaV3lua.Parent = Items
+drpoppaV3lua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+drpoppaV3lua.BorderSizePixel = 0
+drpoppaV3lua.Position = UDim2.new(0.0587058812, 0, 0.0435707048, 0)
+drpoppaV3lua.Size = UDim2.new(0, 180, 0, 45)
+drpoppaV3lua.ZIndex = 2
+drpoppaV3lua.Font = Enum.Font.GothamSemibold
+drpoppaV3lua.Text = "drpoppaV3.lua"
+drpoppaV3lua.TextColor3 = Color3.fromRGB(255, 255, 255)
+drpoppaV3lua.TextScaled = true
+drpoppaV3lua.TextSize = 14.000
+drpoppaV3lua.TextTransparency = 1.000
+drpoppaV3lua.TextWrapped = true
+
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = drpoppaV3lua
+Shadow_4.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_4.Parent = drpoppaV3lua
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_4.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "drpoppaV3.lua"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ciazwarelua.Name = "ciazware.lua"
+ciazwarelua.Parent = Items
+ciazwarelua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+ciazwarelua.BorderSizePixel = 0
+ciazwarelua.Position = UDim2.new(0.0587058812, 0, 0.0789242387, 0)
+ciazwarelua.Size = UDim2.new(0, 180, 0, 45)
+ciazwarelua.ZIndex = 2
+ciazwarelua.Font = Enum.Font.GothamSemibold
+ciazwarelua.Text = "ciazware.lua"
+ciazwarelua.TextColor3 = Color3.fromRGB(255, 255, 255)
+ciazwarelua.TextScaled = true
+ciazwarelua.TextSize = 14.000
+ciazwarelua.TextTransparency = 1.000
+ciazwarelua.TextWrapped = true
+
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = ciazwarelua
+Shadow_5.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_5.Parent = ciazwarelua
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_5.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.GothamSemibold
+TextLabel_5.Text = "ciazware.lua"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+citizenlua.Name = "citizen.lua"
+citizenlua.Parent = Items
+citizenlua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+citizenlua.BorderSizePixel = 0
+citizenlua.Position = UDim2.new(0.0587058812, 0, 0.1155404, 0)
+citizenlua.Size = UDim2.new(0, 180, 0, 45)
+citizenlua.ZIndex = 2
+citizenlua.Font = Enum.Font.GothamSemibold
+citizenlua.Text = "citizen.lua"
+citizenlua.TextColor3 = Color3.fromRGB(255, 255, 255)
+citizenlua.TextScaled = true
+citizenlua.TextSize = 14.000
+citizenlua.TextTransparency = 1.000
+citizenlua.TextWrapped = true
+
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = citizenlua
+Shadow_6.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_6.Parent = citizenlua
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_6.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_6.ZIndex = 2
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "citizen.lua"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+infiniteyieldlua.Name = "infiniteyield.lua"
+infiniteyieldlua.Parent = Items
+infiniteyieldlua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+infiniteyieldlua.BorderSizePixel = 0
+infiniteyieldlua.Position = UDim2.new(0.0587058812, 0, 0.150893927, 0)
+infiniteyieldlua.Size = UDim2.new(0, 180, 0, 45)
+infiniteyieldlua.ZIndex = 2
+infiniteyieldlua.Font = Enum.Font.GothamSemibold
+infiniteyieldlua.Text = "infiniteyield.lua"
+infiniteyieldlua.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyieldlua.TextScaled = true
+infiniteyieldlua.TextSize = 14.000
+infiniteyieldlua.TextTransparency = 1.000
+infiniteyieldlua.TextWrapped = true
+
+Shadow_7.Name = "Shadow"
+Shadow_7.Parent = infiniteyieldlua
+Shadow_7.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_7.BorderSizePixel = 0
+Shadow_7.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_7.Parent = infiniteyieldlua
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_7.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_7.ZIndex = 2
+TextLabel_7.Font = Enum.Font.GothamSemibold
+TextLabel_7.Text = "infiniteyield.lua"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+criminalityespetclua.Name = "criminalityespetc.lua"
+criminalityespetclua.Parent = Items
+criminalityespetclua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+criminalityespetclua.BorderSizePixel = 0
+criminalityespetclua.Position = UDim2.new(0.0587058812, 0, 0.187510088, 0)
+criminalityespetclua.Size = UDim2.new(0, 180, 0, 45)
+criminalityespetclua.ZIndex = 2
+criminalityespetclua.Font = Enum.Font.GothamSemibold
+criminalityespetclua.Text = "criminalityespetc.lua"
+criminalityespetclua.TextColor3 = Color3.fromRGB(255, 255, 255)
+criminalityespetclua.TextScaled = true
+criminalityespetclua.TextSize = 14.000
+criminalityespetclua.TextTransparency = 1.000
+criminalityespetclua.TextWrapped = true
+
+Shadow_8.Name = "Shadow"
+Shadow_8.Parent = criminalityespetclua
+Shadow_8.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_8.BorderSizePixel = 0
+Shadow_8.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_8.Parent = criminalityespetclua
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_8.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_8.ZIndex = 2
+TextLabel_8.Font = Enum.Font.GothamSemibold
+TextLabel_8.Text = "criminalityespetc.lua"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+tsantiguncooldownlua.Name = "tsantiguncooldown.lua"
+tsantiguncooldownlua.Parent = Items
+tsantiguncooldownlua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+tsantiguncooldownlua.BorderSizePixel = 0
+tsantiguncooldownlua.Position = UDim2.new(0.0587058812, 0, 0.225388885, 0)
+tsantiguncooldownlua.Size = UDim2.new(0, 180, 0, 45)
+tsantiguncooldownlua.ZIndex = 2
+tsantiguncooldownlua.Font = Enum.Font.GothamSemibold
+tsantiguncooldownlua.Text = "tsantiguncooldown.lua"
+tsantiguncooldownlua.TextColor3 = Color3.fromRGB(255, 255, 255)
+tsantiguncooldownlua.TextScaled = true
+tsantiguncooldownlua.TextSize = 14.000
+tsantiguncooldownlua.TextTransparency = 1.000
+tsantiguncooldownlua.TextWrapped = true
+
+Shadow_9.Name = "Shadow"
+Shadow_9.Parent = tsantiguncooldownlua
+Shadow_9.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_9.BorderSizePixel = 0
+Shadow_9.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_9.Parent = tsantiguncooldownlua
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_9.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_9.ZIndex = 2
+TextLabel_9.Font = Enum.Font.GothamSemibold
+TextLabel_9.Text = "tsantiguncooldown.lua"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+shindolifeautofarmlua.Name = "shindolifeautofarm.lua"
+shindolifeautofarmlua.Parent = Items
+shindolifeautofarmlua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+shindolifeautofarmlua.BorderSizePixel = 0
+shindolifeautofarmlua.Position = UDim2.new(0.0587058812, 0, 0.264530301, 0)
+shindolifeautofarmlua.Size = UDim2.new(0, 180, 0, 45)
+shindolifeautofarmlua.ZIndex = 2
+shindolifeautofarmlua.Font = Enum.Font.GothamSemibold
+shindolifeautofarmlua.Text = "shindolifeautofarm.lua"
+shindolifeautofarmlua.TextColor3 = Color3.fromRGB(255, 255, 255)
+shindolifeautofarmlua.TextScaled = true
+shindolifeautofarmlua.TextSize = 14.000
+shindolifeautofarmlua.TextTransparency = 1.000
+shindolifeautofarmlua.TextWrapped = true
+
+Shadow_10.Name = "Shadow"
+Shadow_10.Parent = shindolifeautofarmlua
+Shadow_10.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_10.BorderSizePixel = 0
+Shadow_10.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_10.Parent = shindolifeautofarmlua
+TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_10.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_10.ZIndex = 2
+TextLabel_10.Font = Enum.Font.GothamSemibold
+TextLabel_10.Text = "shindolifeautofarm.lua"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+boomboxhublua.Name = "boomboxhub.lua"
+boomboxhublua.Parent = Items
+boomboxhublua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+boomboxhublua.BorderSizePixel = 0
+boomboxhublua.Position = UDim2.new(0.0587058812, 0, 0.30430302, 0)
+boomboxhublua.Size = UDim2.new(0, 180, 0, 45)
+boomboxhublua.ZIndex = 2
+boomboxhublua.Font = Enum.Font.GothamSemibold
+boomboxhublua.Text = "boomboxhub.lua"
+boomboxhublua.TextColor3 = Color3.fromRGB(255, 255, 255)
+boomboxhublua.TextScaled = true
+boomboxhublua.TextSize = 14.000
+boomboxhublua.TextTransparency = 1.000
+boomboxhublua.TextWrapped = true
+
+Shadow_11.Name = "Shadow"
+Shadow_11.Parent = boomboxhublua
+Shadow_11.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_11.BorderSizePixel = 0
+Shadow_11.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_11.Parent = boomboxhublua
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_11.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_11.ZIndex = 2
+TextLabel_11.Font = Enum.Font.GothamSemibold
+TextLabel_11.Text = "boomboxhub.lua"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+vghub60gameslua.Name = "vghub60games.lua"
+vghub60gameslua.Parent = Items
+vghub60gameslua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+vghub60gameslua.BorderSizePixel = 0
+vghub60gameslua.Position = UDim2.new(0.0587058812, 0, 0.342813134, 0)
+vghub60gameslua.Size = UDim2.new(0, 180, 0, 45)
+vghub60gameslua.ZIndex = 2
+vghub60gameslua.Font = Enum.Font.GothamSemibold
+vghub60gameslua.Text = "vghub60games.lua"
+vghub60gameslua.TextColor3 = Color3.fromRGB(255, 255, 255)
+vghub60gameslua.TextScaled = true
+vghub60gameslua.TextSize = 14.000
+vghub60gameslua.TextTransparency = 1.000
+vghub60gameslua.TextWrapped = true
+
+Shadow_12.Name = "Shadow"
+Shadow_12.Parent = vghub60gameslua
+Shadow_12.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_12.BorderSizePixel = 0
+Shadow_12.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_12.Parent = vghub60gameslua
+TextLabel_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_12.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_12.ZIndex = 2
+TextLabel_12.Font = Enum.Font.GothamSemibold
+TextLabel_12.Text = "vghub60games.lua"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+dexhubarsenallua.Name = "dexhubarsenal.lua"
+dexhubarsenallua.Parent = Items
+dexhubarsenallua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+dexhubarsenallua.BorderSizePixel = 0
+dexhubarsenallua.Position = UDim2.new(0.0587058812, 0, 0.381323248, 0)
+dexhubarsenallua.Size = UDim2.new(0, 180, 0, 45)
+dexhubarsenallua.ZIndex = 2
+dexhubarsenallua.Font = Enum.Font.GothamSemibold
+dexhubarsenallua.Text = "dexhubarsenal.lua"
+dexhubarsenallua.TextColor3 = Color3.fromRGB(255, 255, 255)
+dexhubarsenallua.TextScaled = true
+dexhubarsenallua.TextSize = 14.000
+dexhubarsenallua.TextTransparency = 1.000
+dexhubarsenallua.TextWrapped = true
+
+Shadow_13.Name = "Shadow"
+Shadow_13.Parent = dexhubarsenallua
+Shadow_13.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_13.BorderSizePixel = 0
+Shadow_13.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_13.Parent = dexhubarsenallua
+TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_13.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_13.ZIndex = 2
+TextLabel_13.Font = Enum.Font.GothamSemibold
+TextLabel_13.Text = "dexhubarsenal.lua"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+dahoodhub250commandslua.Name = "dahoodhub250commands.lua"
+dahoodhub250commandslua.Parent = Items
+dahoodhub250commandslua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+dahoodhub250commandslua.BorderSizePixel = 0
+dahoodhub250commandslua.Position = UDim2.new(0.0587058812, 0, 0.421095967, 0)
+dahoodhub250commandslua.Size = UDim2.new(0, 180, 0, 45)
+dahoodhub250commandslua.ZIndex = 2
+dahoodhub250commandslua.Font = Enum.Font.GothamSemibold
+dahoodhub250commandslua.Text = "dahoodhub250commands.lua"
+dahoodhub250commandslua.TextColor3 = Color3.fromRGB(255, 255, 255)
+dahoodhub250commandslua.TextScaled = true
+dahoodhub250commandslua.TextSize = 14.000
+dahoodhub250commandslua.TextTransparency = 1.000
+dahoodhub250commandslua.TextWrapped = true
+
+Shadow_14.Name = "Shadow"
+Shadow_14.Parent = dahoodhub250commandslua
+Shadow_14.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_14.BorderSizePixel = 0
+Shadow_14.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_14.Parent = dahoodhub250commandslua
+TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_14.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_14.ZIndex = 2
+TextLabel_14.Font = Enum.Font.GothamSemibold
+TextLabel_14.Text = "dahoodhub250commands.lua"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+speedrun4autofarmlua.Name = "speedrun4autofarm.lua"
+speedrun4autofarmlua.Parent = Items
+speedrun4autofarmlua.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+speedrun4autofarmlua.BorderSizePixel = 0
+speedrun4autofarmlua.Position = UDim2.new(0.0587058812, 0, 0.460237384, 0)
+speedrun4autofarmlua.Size = UDim2.new(0, 180, 0, 45)
+speedrun4autofarmlua.ZIndex = 2
+speedrun4autofarmlua.Font = Enum.Font.GothamSemibold
+speedrun4autofarmlua.Text = "speedrun4autofarm.lua"
+speedrun4autofarmlua.TextColor3 = Color3.fromRGB(255, 255, 255)
+speedrun4autofarmlua.TextScaled = true
+speedrun4autofarmlua.TextSize = 14.000
+speedrun4autofarmlua.TextTransparency = 1.000
+speedrun4autofarmlua.TextWrapped = true
+
+Shadow_15.Name = "Shadow"
+Shadow_15.Parent = speedrun4autofarmlua
+Shadow_15.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_15.BorderSizePixel = 0
+Shadow_15.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_15.Parent = speedrun4autofarmlua
+TextLabel_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_15.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_15.ZIndex = 2
+TextLabel_15.Font = Enum.Font.GothamSemibold
+TextLabel_15.Text = "speedrun4autofarm.lua"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+TextButton.Parent = scripthub
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.807860255, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 44, 0, 41)
+TextButton.Font = Enum.Font.GothamSemibold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 35.000
+
+Button_2.Name = "Button"
+Button_2.Parent = InsertedObjects
+Button_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Button_2.BorderSizePixel = 0
+Button_2.Position = UDim2.new(0, 10, 0, 369)
+Button_2.Size = UDim2.new(0, 180, 0, 45)
+Button_2.Visible = false
+Button_2.ZIndex = 2
+Button_2.Font = Enum.Font.GothamSemibold
+Button_2.Text = ""
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextScaled = true
+Button_2.TextSize = 14.000
+Button_2.TextWrapped = true
+
+Shadow_16.Name = "Shadow"
+Shadow_16.Parent = Button_2
+Shadow_16.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_16.BorderSizePixel = 0
+Shadow_16.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_16.Parent = Button_2
+TextLabel_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_16.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_16.ZIndex = 2
+TextLabel_16.Font = Enum.Font.GothamSemibold
+TextLabel_16.Text = "Re-Open"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- scripthub.Main
+	local script = Instance.new('ModuleScript', scripthub)
+	script.Name = "Main"
+	local function module_script()
+		local scriptexploit = {}
+		
+		function scriptexploit.cyrus()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/Not-Cyrus/Streets-Script/master/Streets%20Admin.lua'),true))()
+		end
+		
+		function scriptexploit.drpoppa()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/DrPoppadopolist/DrPoppaV3/master/Script",true))()
+		end
+		
+		function scriptexploit.citizen()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/The-Streets-Scripts/master/CitizenV4", true))()
+		end
+		
+		function scriptexploit.ciazware()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/Ciazware/main/The-Streets", true))()
+		end
+		
+		function scriptexploit.criminalityespetc()
+			local s, r = pcall(game.HttpGet, game, 'https://raw.githubusercontent.com/wally-rblx/roblox-scripts/main/criminality_esp.lua')
+			if s and loadstring(r) then
+				pcall(loadstring(r))
+			else
+				game.Players.LocalPlayer:Kick('failed to load')
+			end
+		end
+		
+		function scriptexploit.infiniteyield()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+		end
+		
+		function scriptexploit.nocooldowngun()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/isthatjack/streets/master/noccooldown.lua'), true))()
+		end
+		
+		function scriptexploit.shindolifeautofarm()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
+		end
+		
+		function scriptexploit.boomboxhub()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/nickk431/BoomboxHub/main/MainScript.lua"), "BoomboxHub") "nickk#1337"
+		end
+		
+		function scriptexploit.vghub60games()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+		end
+		
+		function scriptexploit.dexhubarsenal()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+		end
+		
+		function scriptexploit.dahoodhub250commands()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/CrystalManMan/crystacentral/main/2ndnewloadstringlol", true))()
+		end
+		
+		function scriptexploit.speedrun4autofarm()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/dragonismcode/robloxscripts/main/speedrun4.lua'), true))()
+		end
+		return scriptexploit
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts:
+
+local function QUNSOZ_fake_script() -- Check.LocalScript 
+	local script = Instance.new('LocalScript', Check)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local key = script.Parent.Parent.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if key.Text == "ampisjustcoolbro" then
+			wait(0.2)
+			key.Text = "I agree, amp is just cool bro."
+			wait(1)
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Frame:TweenPosition(UDim2.new(-0, 0, 0.014, 0), "Out", "Quad", 1, true)
+	elseif
+			key.Text == "" then
+			key.Text = "" else
+			key.Text = "Incorrect, try again"
+			wait(1)
+			key.Text = ""
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(QUNSOZ_fake_script)()
+local function UUXOWWL_fake_script() -- KeyWall.SmoothDrag 
+	local script = Instance.new('LocalScript', KeyWall)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Drag = script.Parent
+	gsCoreGui = game:GetService("CoreGui")
+	gsTween = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+		local function update(input)
+			local delta = input.Position - dragStart
+			local dragTime = 0.04
+			local SmoothDrag = {}
+			SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
+			dragSmoothFunction:Play()
+		end
+		Drag.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = Drag.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+		Drag.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging and Drag.Size then
+				update(input)
+			end
+		end)
+	
+end
+coroutine.wrap(UUXOWWL_fake_script)()
+local function KJABR_fake_script() -- namenil.LocalScript 
+	local script = Instance.new('LocalScript', namenil)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(KJABR_fake_script)()
+local function HTEA_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Players = game:GetService("Players")
+	 
+	local player = Players.LocalPlayer
+	 
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	 
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 97 , 0, 93)
+	
+end
+coroutine.wrap(HTEA_fake_script)()
+local function OXRHPG_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame:TweenPosition(UDim2.new(-0.167, 0 , 0.014, 0), "Out", "Quad", 1, true)
+		script.Parent.Parent.Parent.scripthub:TweenPosition(UDim2.new(-0, 0, 0.014, 0), "Out", "Quad", 1, true)
+		script.Parent.Sound:Play()
+	end)
+	
+end
+coroutine.wrap(OXRHPG_fake_script)()
+local function SZTTOS_fake_script() -- border.LocalScript 
+	local script = Instance.new('LocalScript', border)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local searchBar = script.Parent.Gradient2.SearchBar
+	local items = script.Parent.Parent.Items
+	
+	function UpdateResults()
+		local search = string.lower(searchBar.Text)
+		for i, v in	 pairs(items:GetChildren()) do
+			if v:IsA("GuiButton") then
+				if search ~= "" then
+					local item = string.lower(v.Text)
+					if string.find(item, search) then
+						v.Visible = true
+					else
+						v.Visible = false
+					end
+				else
+					v.Visible = true
+				end
+			end
+		end
+	end
+	
+	searchBar.Changed:Connect(UpdateResults)
+end
+coroutine.wrap(SZTTOS_fake_script)()
+local function YVDZHJ_fake_script() -- cyrusV2lua.Script 
+	local script = Instance.new('Script', cyrusV2lua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.cyrus()
+	end)
+end
+coroutine.wrap(YVDZHJ_fake_script)()
+local function YNHY_fake_script() -- drpoppaV3lua.Script 
+	local script = Instance.new('Script', drpoppaV3lua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.drpoppa()
+	end)
+end
+coroutine.wrap(YNHY_fake_script)()
+local function JTGXNU_fake_script() -- ciazwarelua.Script 
+	local script = Instance.new('Script', ciazwarelua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.ciazware()
+	end)
+end
+coroutine.wrap(JTGXNU_fake_script)()
+local function HAEU_fake_script() -- citizenlua.Script 
+	local script = Instance.new('Script', citizenlua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.citizen()
+	end)
+end
+coroutine.wrap(HAEU_fake_script)()
+local function OWUTXVT_fake_script() -- infiniteyieldlua.Script 
+	local script = Instance.new('Script', infiniteyieldlua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.infiniteyield()
+	end)
+end
+coroutine.wrap(OWUTXVT_fake_script)()
+local function CLUUM_fake_script() -- criminalityespetclua.Script 
+	local script = Instance.new('Script', criminalityespetclua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.criminalityespetc()
+	end)
+end
+coroutine.wrap(CLUUM_fake_script)()
+local function DPPQVOF_fake_script() -- tsantiguncooldownlua.Script 
+	local script = Instance.new('Script', tsantiguncooldownlua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.nocooldowngun()()
+	end)
+end
+coroutine.wrap(DPPQVOF_fake_script)()
+local function IOAD_fake_script() -- shindolifeautofarmlua.Script 
+	local script = Instance.new('Script', shindolifeautofarmlua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.shindolifeautofarm()
+	end)
+end
+coroutine.wrap(IOAD_fake_script)()
+local function WGLZVB_fake_script() -- boomboxhublua.Script 
+	local script = Instance.new('Script', boomboxhublua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.boomboxhub()
+	end)
+end
+coroutine.wrap(WGLZVB_fake_script)()
+local function EXHW_fake_script() -- vghub60gameslua.Script 
+	local script = Instance.new('Script', vghub60gameslua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.vghub60games()()
+	end)
+end
+coroutine.wrap(EXHW_fake_script)()
+local function HHAB_fake_script() -- dexhubarsenallua.Script 
+	local script = Instance.new('Script', dexhubarsenallua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.dexhubarsenal()()()
+	end)
+end
+coroutine.wrap(HHAB_fake_script)()
+local function FQMNAOX_fake_script() -- dahoodhub250commandslua.Script 
+	local script = Instance.new('Script', dahoodhub250commandslua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.dahoodhub250commands()
+	end)
+end
+coroutine.wrap(FQMNAOX_fake_script)()
+local function MEUIH_fake_script() -- speedrun4autofarmlua.Script 
+	local script = Instance.new('Script', speedrun4autofarmlua)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local scriptexploit = require(script.Parent.Parent.Parent.Main)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		scriptexploit.speedrun4autofarm()()
+	end)
+end
+coroutine.wrap(MEUIH_fake_script)()
+local function SLYG_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent:TweenPosition(UDim2.new(-0.167, 0 , 0.014, 0), "Out", "Quad", 1, true)
+		script.Parent.Parent.Parent.Button.Visible = true
+	end)
+end
+coroutine.wrap(SLYG_fake_script)()
+local function NYHZ_fake_script() -- Button_2.LocalScript 
+	local script = Instance.new('LocalScript', Button_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.scripthub:TweenPosition(UDim2.new(-0, 0, 0.014, 0), "Out", "Quad", 1, true)
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(NYHZ_fake_script)()
